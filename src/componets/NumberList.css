@@ -1,0 +1,49 @@
+/* NumberList.css */
+.number-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .number-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .number-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .number-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .number-list button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .number-list button:hover {
+    background-color: #0056b3;
+  }
+  
